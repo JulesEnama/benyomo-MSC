@@ -1,36 +1,80 @@
-# This is a basic workflow to help you get started with Actions
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rafting Vacations | Dry Oar Boating |</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
 
-name: CI
+  <body>
+    <header>
+      <div class="logo-box">
+        <img
+          src="https://cdn.glitch.com/826c4f39-5105-43d1-b5e1-5c9b19e8ada1%2Fcrossedoars.jpeg?1632564295237"
+          alt="Dry Oar boating logo"
+        />
+      </div>
 
-# Controls when the workflow will run
-on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutme.html">About Me</a></li>
+          <li><a href="site-plan.html">Site Plan</a></li>
+          <li><a href="contact-us.html">Contact us</a></li>
+          <li><a href="faq.html">Faq</a></li>
+          <li><a href="resources.html">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="banner-box">
+        <img
+          src="https://cdn.glitch.com/826c4f39-5105-43d1-b5e1-5c9b19e8ada1%2Fthumbnails%2Fsalmon-kayak-banner1.jpg?1632907290494"
+          alt="rafting in family"
+        />
+      </div>
+      <div class="home-grid">
+        <h2 class=" home-headline-1">Relaxing moments in vacations</h2>
+        <p class="home-paragraph-1">
+          We believe that there is nothing like a river trip for relaxing. That
+          is why we subscribe to the dry oar philosophy of boating.
+          <br />Keeping your oars dry for us means taking time to look around
+          and notice the beauty that surrounds the rivers we love.
+        </p>
+        <img
+          class="home-right-img"
+          src="https://cdn.glitch.com/826c4f39-5105-43d1-b5e1-5c9b19e8ada1%2Findex.jpg?1632907248643"
+          alt="rafting in family"
+        />
+        <h2 class="home-headline-2">You will enjoy rafting</h2>
+        <p class="  home-paragraph-2">
+          That doesn't mean we don't also like rapids. Opposites in all things
+          after all. We believe that that tenseness that comes when you are
+          <br />
+          looking down the tongue of a big string of waves makes you appreciate
+          the calm beautiful water that always follows even more.
+        </p>
+        <img
+          class=" home-left-img"
+          src="https://cdn.glitch.com/826c4f39-5105-43d1-b5e1-5c9b19e8ada1%2Fthumbnails%2Fsalmon-kayak2.jpg?1632907499826"
+          alt="rafting in family"
+        />
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+        <section class="home-paragraph-3">
+          <h2>Come Run with us.</h2>
+          <p>
+            We invite you to come relax with us on one of the amazing rivers we
+            visit. Check out our trips and let us know which one best suits
+            you.<br />
+            We're waiting to hear from you!
+          </p>
+        </section>
+      </div>
+    </main>
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
-        run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+    <footer>
+      <p>&copy; 2021 Dry Oar - Junior ENAMA - 02</p>
+    </footer>
+  </body>
+</html>
